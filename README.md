@@ -9,28 +9,24 @@ https://learn.microsoft.com/en-us/visualstudio/ide/how-to-specify-an-application
 Specify an application icon (Visual Basic, C#)
 Article
 09/30/2024
-
 13 contributors
 
 The Icon property for a project specifies the icon file (.ico) that displays for the compiled application in File Explorer and the Windows taskbar. This article describes how to specify an application icon.
-
 You can access the Icon property from the Application section of the Project Designer, which contains a list of icons that have been added to a project either as resources or as content files.
-
 After you set the icon property for an application, you might also set the Icon property of each Window or Form in the application. For information about window icons for Windows Presentation Foundation (WPF) standalone applications, see Icon property.
 
-To specify an application icon
-Complete these steps to specify an application icon.
+To specify an application icon:
 
-In Solution Explorer, select a Project node (not the Solution node).
+1. In Solution Explorer, select a Project node (not the Solution node).
 
-On the menu bar, select Project > Properties.
+2. On the menu bar, select Project > Properties.
 
 Note: You might see your project's file name when you view Project > Properties. For example, if you're working on a project that's named "Calculator", Visual Studio displays Project > Calculator Properties.
 
-The Project Designer appears. In the Application section, select one of the following:
+3. The Project Designer appears. In the Application section, select one of the following:
 
-For C#, select Win32 Resources.
+4. For C#, select Win32 Resources.
 For Visual Basic, select Resources.
-In the Icon section, select the Browse button to browse to the location of the icon file that you want to use.
+5. In the Icon section, select the Browse button to browse to the location of the icon file that you want to use.
 
 © Microsoft 2024
